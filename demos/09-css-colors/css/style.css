@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph{
+    color: #0000ff;
+}
+#second-paragraph{
+    background-color: aquamarine;
+}
+#span-1{
+    color: red;
+}
+#span-2{
+    background-color: rgb(243, 44, 243);
+}
+#span-3{
+    Color: rgb(66, 239, 66);
+    background-color: rgb(166, 98, 231);
+}

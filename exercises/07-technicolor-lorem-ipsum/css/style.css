@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#paragraph-1{
+    Background-color: red;
+    color: gold;
+}
+#s1{
+    color: greenyellow;
+}
+#s2{
+    background-color: aqua;
+
+}
+#s3{
+    background-color: rgba(227, 227, 8, 0.541);
+    color: rgb(160, 3, 3);
+}
+#s4{
+    background-color: white;
+    color: blue;
+}
+#paragraph-2{
+    background-color: rgb(33, 213, 33);
+    color: rgb(124, 6, 234);
+}
+#s5{
+    Background-color:red;
+    color: green;
+}
+#s6{
+    background-color: aqua;
+}
+#s7{
+    background-color: darksalmon;
+    color:rgb(20, 231, 255);
+}
+#s8{
+    background-color: black;
+}
+#paragraph-3{
+    background-color: slateblue;
+    color: goldenrod;
+}
+#s9{
+    background-color: blanchedalmond;
+    color:deeppink;
+}
+#s10{
+    background-color: chartreuse;
+    color: plum;
+}
