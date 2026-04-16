@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    Font-weight: bold;
+    text-decoration: underline overline;
+}
+#span-2 {
+    font-style: italic;
+}
+#paragraph-1 {
+    font-size: 24px;
+    text-align: center;
+}
+#hyperlink {
+    text-decoration: none;
+    color: lime;
+}
+#container {
+    /* works because it is in a container */
+    text-align: center;
+}
+#image-2 {
+    /* doesn't work */
+    text-align: center;
+}
