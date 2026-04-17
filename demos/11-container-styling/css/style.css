@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#p1 {
+    color: green;
+}
+
+.shadowed {
+    background-color: lightgray;
+    margin: 24px;
+    padding: 24px;
+    /* x-offset +right -left   y-offset +down -up   blur-radius color */
+    box-shadow:
+        8px 8px 16px black,
+        inset 0px 0px 8px blue;
+}
+p {
+    /* serif, sans-serif, monospace, cursive, fantasy */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+}
