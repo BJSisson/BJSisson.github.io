@@ -10,7 +10,7 @@ body {
 #container {
     width: 500px;
     min-height: 100vh;
-    background-color:rgb(147, 10, 210) ;
+    background-color:rgb(147, 10, 210);
     font-size: 0px;
 }
 .block {
@@ -49,6 +49,4 @@ body {
     border-style: outset;
     border-color: rgba(97, 159, 4, 0.724);
     border-radius: 60px 0;
-
-
 }
