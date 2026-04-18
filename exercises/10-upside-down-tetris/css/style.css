@@ -6,3 +6,43 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: #333;
+    font-size: 0px;
+}
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.red {
+    background: linear-gradient(red, rgba(255, 0, 0, 0.525));
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgb(123, 2, 2);
+}
+
+.blue {
+    background: linear-gradient(#00a0a0, blue);
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgba(8, 185, 141, 0.692);
+}
+
+.gold {
+    background: linear-gradient(yellow, gold);
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgb(234, 202, 0);
+}
+
+.green {
+    background: linear-gradient(to bottom, chartreuse, green);
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgba(97, 159, 4, 0.724);
+}
