@@ -24,6 +24,7 @@ body {
     border-width: 10px;
     border-style: outset;
     border-color: rgb(123, 2, 2);
+    border-radius: 20px;
 }
 
 .blue {
@@ -31,6 +32,7 @@ body {
     border-width: 10px;
     border-style: outset;
     border-color: rgba(8, 185, 141, 0.692);
+    border-radius: 45px 0px 45px 45px;
 }
 
 .gold {
@@ -38,6 +40,7 @@ body {
     border-width: 10px;
     border-style: outset;
     border-color: rgb(234, 202, 0);
+    border-radius: 50%;
 }
 
 .green {
@@ -45,4 +48,7 @@ body {
     border-width: 10px;
     border-style: outset;
     border-color: rgba(97, 159, 4, 0.724);
+    border-radius: 60px 0;
+
+
 }
