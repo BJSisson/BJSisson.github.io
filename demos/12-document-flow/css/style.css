@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+p {
+    background-color: chocolate;
+}
+span {
+    background-color: aqua;
+    display: block;
+}
+div {
+    background-color: pink;
+    display: inline;
+}
+.narrow {
+    background-color: dodgerblue;
+    display: inline-block;
+    width: 200px;
+}
