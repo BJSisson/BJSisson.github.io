@@ -1,0 +1,38 @@
+
+#bulletin-board {
+    width: 1400px;
+    min-height: 120vh;
+    font-size: 0px;
+    
+}
+
+.post-it {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+}
+
+.pink {
+    Background-color: pink;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.green {
+    background-color: aquamarine;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blueviolet;
+}
+
