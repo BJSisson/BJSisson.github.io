@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    border-top: 5px dashed aquamarine;
+    border-right: 5px dotted blueviolet;
+    border-bottom-style: ridge;
+    border-bottom-color: blue;
+    border-bottom-width: 5px;
+    border-left-style: groove;
+    border-left-color: crimson;
+    border-left-width: 5px;
+    /* top, right, bottom, left, margin runs clockwise */
+    margin: 12px 10px 24px 36px;
+    padding: 10px 20px 24px 50px;
+    border-radius: 20px;
+}

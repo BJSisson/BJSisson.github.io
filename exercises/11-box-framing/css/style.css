@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: inline-block;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.frame {
+    display: inline-block;
+    width: 300px;
+    padding: 12px;
+    margin: 24px;
+    background-color: antiquewhite;
+}
+img {
+    width: 100%;
+}
+
+#div-1 {
+    border: 10px ridge silver;
+}
+
+#div-2 {
+    border: 20px groove burlywood;
+
+}
+
+#div-3 {
+    border: 15px solid goldenrod;
+}
+
+#div-4 {
+    text-align: center;
+    border-radius: 50%;
+    border: 18px solid rgb(180, 156, 21);
+}
+#smiley {
+    border-radius: 50%;
+}
