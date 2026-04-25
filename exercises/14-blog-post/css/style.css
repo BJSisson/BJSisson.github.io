@@ -11,9 +11,12 @@ body {
 .single-column {
     background-color: rgb(101, 27, 27);
     color: antiquewhite;
-    max-width: 800px;
-    padding: 15px;
+    max-width: 600px;
+    padding: 30px;
     margin: 0px auto;
     border: 12px solid antiquewhite;
 }
 
+#pick-1 {
+    width: 100%;
+}
