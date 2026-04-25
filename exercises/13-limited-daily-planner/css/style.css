@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#morning {
+    border: 24px solid #148d80;
+    border-radius: 12px;
+    background-color: aqua;
+    margin: 12px;
+    padding: 20px 10px 10px 10px; 
+}
+
+#afternoon {
+    border: 24px solid #5e097b;
+    border-radius: 12px;
+    background-color: blueviolet;
+    margin: 12px;
+    padding: 20px 10px 10px 10px; 
+    border
+}
+
+#evening {
+    border: 24px solid #b38105;
+    border-radius: 12px;
+    background-color: orange;
+    margin: 12px;
+    padding: 20px 10px 10px 10px; 
+}
+
+.completed {
+    text-decoration: line-through
+}
+
+.important {
+    color: red;
+    background-color: yellow;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: aliceblue;
+    padding: 30;
+    border-radius: 24px;
+    font-size: 20px;
+    margin: 24px;
+}

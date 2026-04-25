@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(to top, rgb(65, 0, 0), rgb(248, 57, 57));
+}
+
+.single-column {
+    background-color: rgb(101, 27, 27);
+    color: antiquewhite;
+    max-width: 800px;
+    padding: 15px;
+    margin: 0px auto;
+    border: 12px solid antiquewhite;
+}
+
