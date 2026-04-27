@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+
+.single-column {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.image {
+    width: 500px;
+}
+
+h1 {
+     font-family: "DynaPuff", system-ui;
 }
