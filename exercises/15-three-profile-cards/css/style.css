@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#single-column {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.card {
+    border: 5px solid rgb(255, 197, 127);
+    padding: 36px;
+    text-align: center;
+    margin: 36px 0px;
+    background-color:cyan;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 50px 0px;
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: blanchedalmond;
+    border: 5px solid purple;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
