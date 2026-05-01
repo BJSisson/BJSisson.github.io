@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    /* Clean Code on long elements */
+    background: linear-gradient(
+        /* how to change the direction of the gradient */
+        /* to bottom right, */
+        to bottom,
+        rgb(188, 88, 1),
+        rgb(255, 162, 0)
+    );
+    display: flex;
+    /* flex-center, center, flex-end, space-between, space-around, space-evenly 
+    This is to be used only in flexbox-container that has display: flex; 
+    this moves items horizontaly*/
+    justify-content: space-between;
+    /* another flexbox-container property this moves items verticaly*/
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo-container {
+    /* targets the logo and moves it to the right side of the navbar, 
+    and pushes the anchor elements to the right using margin. */
+    margin-right: auto;
+}
+
+#navbar img {
+    width: 200px;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: orange;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 12px; 
+}

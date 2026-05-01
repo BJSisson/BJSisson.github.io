@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0px auto;  
+}
+
+#navbar {
+    background: linear-gradient(
+        rgb(253, 211, 0), 
+        rgb(237, 171, 3)
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid rgb(108, 2, 2);
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(142, 55, 55);
+    padding: 36px;
+    font-size: 24px;
+}
+
+#navbar .logo-container {
+    margin-right: auto;
+}
+#navbar .cta-button {
+    background-color: white;
+    color: rgb(142, 55, 55);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 12px; 
+}
