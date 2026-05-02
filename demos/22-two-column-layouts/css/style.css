@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    /* display: flex; is used to make the other containers side by side. if 
+    used  in a flexbox item it will make the content in the container 
+    side by side. */
+    display: flex;
+
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+#sidebar-content {
+    /* background-color: aqua; */
+    /* flex is used to size the containers */
+    /* flex: 1; */
+    width: 250px;
+    /* Order changes the order in which the html is seen */
+    order: 2;
+    padding: 18px;
+}
+
+#main-content {
+    /* background-color: lightgreen; */
+    flex: 2;
+    order: 1;
+}
+
+#sidebar-content h2 {
+    background-color: darkorchid;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    margin: 0px;
+}
+
+
+#sidebar-content ul {
+    background-color: aquamarine;
+    margin: 0px 0px 36px;
+    border: 1px solid darkorchid;
+/*  list-style-type lets you design the bullets */
+    list-style-type: none;
+    padding: 0px 12px;
+}
+
+#sidebar-content a {
+    text-decoration: none;
+    color: darkorchid;
+}
+
+#sidebar-content li {
+    padding: 8px 0px;
+    border-bottom: 1px solid darkorchid;
+}
+
+/* pseudo-class- this targets the last child in the sidebar and removes the bottom border*/
+#sidebar-content li:last-child {
+    border-bottom: 0px;
+}
+
+/* this pseudo-class allows the target to change color when hovered over by the mouse */
+#sidebar-content li:hover {
+    background-color: chartreuse;
+}
